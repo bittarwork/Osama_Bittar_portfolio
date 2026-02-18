@@ -1,0 +1,36 @@
+{
+  "name": "osama-bittar-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Osama Bittar - Full Stack Developer specializing in MERN Stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy to your hosting service'",
+    "optimize-images": "echo 'Use imagemin or similar tool to optimize images'"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "mern",
+    "developer",
+    "web-development",
+    "javascript",
+    "react",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Osama Bittar",
+    "email": "bittar.work@gmail.com",
+    "url": "https://bittarov.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bittarwork/portfolio"
+  },
+  "homepage": "https://bittarwork.github.io/portfolio",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

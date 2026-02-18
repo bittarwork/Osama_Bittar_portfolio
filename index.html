@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Osama Bittar - Full Stack Developer specializing in MERN Stack, ERP Systems, and Enterprise Applications">
+    <meta name="keywords" content="Full Stack Developer, MERN Stack, React, Node.js, Web Development">
+    <meta name="author" content="Osama Bittar">
+    <title>Osama Bittar | Full Stack Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/profile.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS (modular architecture) -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Osama Bittar</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-extras">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="hero-greeting">
+                        <span class="wave">👋</span> Hello, I'm
+                    </p>
+                    <h1 class="hero-name">
+                        Osama Bittar
+                    </h1>
+                    <div class="hero-title-wrapper">
+                        <h2 class="hero-title">
+                            <span class="typing-text" id="typingText"></span>
+                            <span class="cursor">|</span>
+                        </h2>
+                    </div>
+                    <p class="hero-description">
+                        Specialized in building enterprise-level ERP systems, administrative dashboards, 
+                        and scalable full-stack applications using the MERN stack. Transforming complex 
+                        business requirements into elegant, production-ready solutions.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://github.com/bittarwork" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/osama.designer.syria" target="_blank" rel="noopener" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/963930705788" target="_blank" rel="noopener" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://t.me/bittarwork" target="_blank" rel="noopener" aria-label="Telegram">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                        <a href="mailto:bittar.work@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="image-wrapper">
+                        <div class="image-bg"></div>
+                        <img src="./assets/profile.png" alt="Osama Bittar - Full Stack Developer">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get To Know More</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <img src="./assets/profile.png" alt="Osama Bittar">
+                        <div class="experience-badge">
+                            <div class="badge-content">
+                                <span class="badge-number">4+</span>
+                                <span class="badge-text">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-info" data-aos="fade-left">
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>Bachelor's in IT Engineering</p>
+                            <span>Syrian Virtual University</span>
+                        </div>
+                        
+                        <div class="about-card">
+                            <i class="fas fa-briefcase"></i>
+                            <h3>Experience</h3>
+                            <p>4+ Years Professional</p>
+                            <span>Full Stack Development</span>
+                        </div>
+                        
+                        <div class="about-card">
+                            <i class="fas fa-award"></i>
+                            <h3>Projects</h3>
+                            <p>15+ Completed</p>
+                            <span>Enterprise Systems</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-text">
+                        <p>
+                            I'm a <strong>Full Stack Developer</strong> with 4 years of hands-on experience 
+                            designing and delivering production-grade web applications using the MERN stack.
+                        </p>
+                        <p>
+                            My expertise lies in building <strong>enterprise-level ERP systems</strong>, 
+                            administrative dashboards, and scalable backend architectures. I specialize in 
+                            transforming complex business requirements into secure, maintainable software solutions.
+                        </p>
+                        <p>
+                            Beyond development, I'm passionate about <strong>teaching and mentoring</strong>. 
+                            I've trained over 50+ students through various institutions including New Horizons, 
+                            Aga Khan Foundation, and UNRWA, helping them build real-world projects and enter 
+                            the tech industry.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert in RESTful API Design & JWT Authentication</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Specialized in Role-Based Access Control Systems</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Strong Foundation in MVC Architecture & Design Patterns</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Experienced in Real-Time Applications with Socket.io</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-actions">
+                        <a href="./assets/CV_Osama_Bittar.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            
+            <div class="skills-content">
+                <!-- Frontend Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript (ES6+)</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML5 & CSS3</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Bootstrap & Tailwind</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js & Express</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MongoDB</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JWT & Authentication</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-plug"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>RESTful APIs</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git & GitHub</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Docker</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MVC Architecture</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Socket.io (Real-time)</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Stack Summary -->
+            <div class="tech-stack" data-aos="fade-up" data-aos-delay="400">
+                <h3>My Tech Stack</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">Socket.io</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">RESTful APIs</span>
+                    <span class="tech-tag">MVC</span>
+                    <span class="tech-tag">RBAC</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">WordPress</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    A showcase of enterprise-level applications and systems I've built
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: EmpMonitor -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>EmpMonitor</h3>
+                            <span class="project-type">ERP System</span>
+                            <a href="https://github.com/bittarwork/EmpMonitor" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive employee attendance and contract management system with bio-metric 
+                            integration. Features include payroll calculations, shift management, and detailed 
+                            reporting dashboards.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-fingerprint"></i>
+                                <span>Bio-metric Integration</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-calculator"></i>
+                                <span>Automated Payroll</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: AltroHR -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>AltroHR</h3>
+                            <span class="project-type">HR Management</span>
+                            <a href="https://github.com/bittarwork/AltroHR" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Smart HR & Attendance Management platform for modern workplaces. Includes leave 
+                            management, performance tracking, and employee self-service portal with advanced 
+                            analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span>MERN Stack</span>
+                            <span>JWT Auth</span>
+                            <span>Chart.js</span>
+                            <span>RBAC</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Advanced Analytics</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users-cog"></i>
+                                <span>Role Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: BlueShield Services -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>BlueShield Services</h3>
+                            <span class="project-type">Service Platform</span>
+                            <a href="https://github.com/bittarwork/BlueShield-Services" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Real-time water management system for Saudi Arabia. Streamlines emergency maintenance 
+                            requests and alternative water supply solutions with integrated e-commerce functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-tint"></i>
+                                <span>Real-time Tracking</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>E-commerce Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: EcoTrade -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>EcoTrade</h3>
+                            <span class="project-type">Marketplace</span>
+                            <a href="https://github.com/bittarwork/EcoTrade" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Innovative recycling marketplace connecting sellers with buyers. Features include 
+                            mobile seller scheduling, online auctions for recycled materials, and environmental 
+                            impact tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                            <span>JWT</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-recycle"></i>
+                                <span>Auction System</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-truck"></i>
+                                <span>Pickup Scheduling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5: Bakery Management -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Bakery Management System</h3>
+                            <span class="project-type">Business Solution</span>
+                            <a href="https://github.com/bittarwork/Bakery-management-system" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Complete bakery management solution handling inventory, production planning, sales 
+                            tracking, and customer orders. Includes POS integration and daily reporting features.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-box"></i>
+                                <span>Inventory Management</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-cash-register"></i>
+                                <span>POS System</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6: Custom ERP for RQT -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Custom ERP System</h3>
+                            <span class="project-type">Enterprise Solution</span>
+                            <a href="#" class="project-link" title="Private repository"><i class="fas fa-lock"></i></a>
+                        </div>
+                        <p class="project-description">
+                            Enterprise-grade ERP system for warehouse and distribution management. Features 
+                            include multi-warehouse inventory, supplier management, automated ordering, and 
+                            comprehensive reporting.
+                        </p>
+                        <div class="project-tech">
+                            <span>MERN Stack</span>
+                            <span>RBAC</span>
+                            <span>PDF Generation</span>
+                            <span>Export Tools</span>
+                        </div>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-warehouse"></i>
+                                <span>Multi-warehouse</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Advanced Reporting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta" data-aos="fade-up">
+                <p>Want to see more?</p>
+                <a href="https://github.com/bittarwork" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & Education</h2>
+            </div>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full Stack Developer</h3>
+                            <span class="timeline-company">RQT - Damascus, Syria</span>
+                            <span class="timeline-date">Apr 2024 - Dec 2025</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Designed and developed custom ERP system for warehouse and distribution management</li>
+                            <li>Built employee attendance and payroll monitoring system with bio-metric device integration (5 scanners)</li>
+                            <li>Developed real-time service request management platform for Saudi water maintenance company</li>
+                            <li>Implemented full-featured e-commerce system integrated within service platform</li>
+                            <li>Applied MVC architecture ensuring scalability and maintainability</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>MERN Stack</span>
+                            <span>JWT</span>
+                            <span>Socket.io</span>
+                            <span>RBAC</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Development Instructor</h3>
+                            <span class="timeline-company">Multiple Institutions</span>
+                            <span class="timeline-date">Feb 2024 - Present</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li><strong>New Horizons Syria:</strong> Delivered 15+ professional courses in React, PHP, and Full Stack Development</li>
+                            <li><strong>Aga Khan Foundation (AKDN):</strong> Conducted 2 intensive boot-camps training 50+ students</li>
+                            <li><strong>UNRWA:</strong> Delivered technical seminars and workshops in web technologies</li>
+                            <li><strong>C-Edvisor Platform:</strong> Provided online and offline training programs</li>
+                            <li>Mentored graduation projects and career preparation for market entry</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>React</span>
+                            <span>PHP</span>
+                            <span>Full Stack</span>
+                            <span>Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Developer / E-commerce Specialist</h3>
+                            <span class="timeline-company">Concept Art Digital Agency - Damascus</span>
+                            <span class="timeline-date">Oct 2023 - Apr 2024</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Developed and customized e-commerce stores using Salla and WordPress</li>
+                            <li>Built static and React-based websites for various clients</li>
+                            <li>Implemented marketing-driven landing pages with performance focus</li>
+                            <li>Collaborated with marketing teams for UX optimization and conversion rate improvement</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>React</span>
+                            <span>WordPress</span>
+                            <span>E-commerce</span>
+                            <span>Salla</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Business Owner</h3>
+                            <span class="timeline-company">Self-Employed - Damascus</span>
+                            <span class="timeline-date">Dec 2020 - Present</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Managed all business operations, finances, and customer service</li>
+                            <li>Handled budgeting, vendor management, and daily operational decisions</li>
+                            <li>Developed business processes and workflow optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="timeline-item education" data-aos="fade-up" data-aos-delay="500">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachelor's in Information Technology Engineering</h3>
+                            <span class="timeline-company">Syrian Virtual University - Damascus</span>
+                            <span class="timeline-date">2019 - 2025</span>
+                        </div>
+                        <ul class="timeline-description">
+                            <li>Focused on Software Engineering, Databases, and Web Technologies</li>
+                            <li>Completed projects involving system design and application development</li>
+                            <li>Strong foundation in algorithms, data structures, and software architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="certifications" data-aos="fade-up">
+                <h3>Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Software Engineering</h4>
+                        <p>The Hong Kong University of Science and Technology</p>
+                        <span>Coursera - Mar 2024</span>
+                        <a href="./assets/certificates/software-engineering.pdf" target="_blank" class="cert-btn">
+                            <i class="fas fa-file-pdf"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Open Source Software Development</h4>
+                        <p>Linux and Git - The Linux Foundation</p>
+                        <span>Coursera - Jun 2023</span>
+                        <a href="./assets/certificates/open-source-linux-git.pdf" target="_blank" class="cert-btn">
+                            <i class="fas fa-file-pdf"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Python for Everybody</h4>
+                        <p>University of Michigan</p>
+                        <span>Coursera - Feb 2021</span>
+                        <a href="./assets/certificates/python-for-everybody.pdf" target="_blank" class="cert-btn">
+                            <i class="fas fa-file-pdf"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Oracle SQL Databases</h4>
+                        <p>LearnQuest</p>
+                        <span>Coursera - Mar 2022</span>
+                        <a href="./assets/certificates/oracle-sql-databases.pdf" target="_blank" class="cert-btn">
+                            <i class="fas fa-file-pdf"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Ethical Hacking</h4>
+                        <p>LearnKartS</p>
+                        <span>2024</span>
+                        <a href="./assets/certificates/ethical-hacking.pdf" target="_blank" class="cert-btn">
+                            <i class="fas fa-file-pdf"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-description">
+                    Let's discuss your project or opportunity
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:bittar.work@gmail.com">bittar.work@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+963930705788">+963 930 705 788</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/963930705788" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telegram</h3>
+                            <a href="https://t.me/bittarwork" target="_blank" rel="noopener">Chat on Telegram</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Damascus, Syria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Website</h3>
+                            <a href="https://bittarov.com" target="_blank">bittarov.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/bittarwork" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.facebook.com/osama.designer.syria" target="_blank" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/963930705788" target="_blank" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://t.me/bittarwork" target="_blank" aria-label="Telegram">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Discussion">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Osama Bittar</h3>
+                    <p>Full Stack Developer specializing in MERN Stack & Enterprise Systems</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:bittar.work@gmail.com">Email</a></li>
+                            <li><a href="tel:+963930705788">Phone</a></li>
+                            <li><a href="https://bittarov.com" target="_blank">Website</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-col">
+                        <h4>Social</h4>
+                        <ul>
+                            <li><a href="https://github.com/bittarwork" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.facebook.com/osama.designer.syria" target="_blank">Facebook</a></li>
+                            <li><a href="https://wa.me/963930705788" target="_blank">WhatsApp</a></li>
+                            <li><a href="https://t.me/bittarwork" target="_blank">Telegram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Osama Bittar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        // Initialize EmailJS with your public key
+        (function(){
+            emailjs.init("aQTkSr09pEaK2SuO8"); 
+        })();
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
